@@ -18,8 +18,8 @@ let mint = async(accountAX, addr)=>{
                 contractAddress: contractAddress,
                 entrypoint: "inscription",
                 calldata: CallData.compile({
-                    _infos: str,
-                    _to: addr
+                    ins: str,
+                    to: addr
                 })
             }
             
